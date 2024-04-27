@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizon Health Care</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="https://i.ibb.co/6n7LVVX/Whats-App-Image-2024-04-25-at-8-40-13-AM.jpg" alt="Horizon Health Care Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Downloads</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="login-register">Register / Login</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-text">
+                <h1>At Horizon Health Care,</h1>
+                <p>We provide Nursing services and Home & Community services with compassion and dedication.</p>
+                <button class="contact-button">Contact Us</button>
+            </div>
+            <div class="hero-image">
+                <img src="https://i.ibb.co/6034X41/doctor-5808573-1280.png" alt="Doctor Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Allocation Managers Section -->
+    <section class="allocation-managers">
+        <div class="container">
+            <h2>Our Allocation Managers</h2>
+            <div class="allocation-content">
+                <div class="allocation-text">
+                    <ul>
+                        <li>Our industry knowledge experience in skill matching
+                            <ul>
+                                <li>We are 24/7</li>
+                                <li>Turnaround time within 30 minutes</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="allocation-image">
+                    <img src="https://i.ibb.co/XZ9kdfT/doctor-8624456-1280.png" alt="Allocation Managers Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <h2>Services:</h2>
+            <div class="services-description">
+                <div class="service-item">
+                    <img src="https://i.ibb.co/rcRqmJ9/nurse.jpg" alt="Registered Nurses Image">
+                    <p><strong>Registered Nurses:</strong> Access experienced and certified Registered Nurses to provide high-quality patient care and support.</p>
+                </div>
+                <div class="service-item">
+                    <img src="https://i.ibb.co/wgCwfBT/care-assistant.jpg" alt="Care Assistants Image">
+                    <p><strong>Care Assistants:</strong> Find compassionate and dedicated Care Assistants to assist with daily activities and enhance patient comfort and well-being.</p>
+                </div>
+                <div class="service-item">
+                    <img src="https://i.ibb.co/Mgs4Zg5/hospitality-1.jpg" alt="Hospitality Staff Image">
+                    <p><strong>Hospitality Staff:</strong> From housekeeping to food service, rely on our skilled Hospitality Staff to maintain a clean, safe, and welcoming environment for patients and staff alike.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get in Touch Section -->
+    <section class="get-in-touch">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <form id="contact-form" method="post" action="submit.php">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="contact-us">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-icons">
+                <a href="https://www.facebook.com/share/t3VwcC8TfrD2vMU8/?mibextid=qi2Omg" target="_blank"><img src="https://i.ibb.co/gSc221X/Facebook-icon.png" alt="Facebook"></a>
+                <a href="https://www.linkedin.com/company/horizon-healthcare-solutions-au/" target="_blank"><img src="https://i.ibb.co/94mDkSV/Linked-in-Icon.png" alt="LinkedIn"></a>
+                <a href="https://www.instagram.com/horizonhs.au" target="_blank"><img src="https://i.ibb.co/Ms2mbzk/Instagram-icon.png" alt="Instagram"></a>
+                <a href="mailto:horizonhealthcare@gmail.com"><img src="https://i.ibb.co/YB3zVfS/Gmail-icon.png" alt="Gmail"></a>
+                <span>horizonhealthcare@gmail.com</span>
+                <a href="tel:0123046892"><img src="https://i.ibb.co/fdbJZtq/Phone.png" alt="Phone"></a>
+                <span>0123 046892</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>Copyright © Horizon Healthcare Solutions. All rights reserved. <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a> | <a href="#">Sitemap</a></p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var contactButton = document.querySelector('.contact-button');
+
+            contactButton.addEventListener('click', function() {
+                var contactSection = document.querySelector('.contact-us');
+                contactSection.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
