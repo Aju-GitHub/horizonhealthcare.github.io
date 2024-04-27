@@ -1,0 +1,271 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Color Palette */
+:root {
+    --primary-color: #003049;   /* Main brand color */
+    --secondary-color: #d62828; /* Accent color */
+    --tertiary-color: #f77f00;  /* Tertiary color */
+    --quaternary-color: #fcbf49;  /* Quaternary color */
+    --quinary-color: #eae2b7;   /* Quinary color */
+}
+
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--quinary-color); /* Set quinary color as background color */
+    color: var(--primary-color); /* Set primary color as text color */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: var(--quinary-color); /* Set quinary color as background color */
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 70px; /* Updated height for the logo */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex; /* Display navigation items in a row */
+    align-items: center; /* Center items vertically */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--primary-color); /* Set primary color as link color */
+}
+
+.login-register {
+    margin-left: auto; /* Align login/register button to the right */
+    background-color: var(--secondary-color); /* Set secondary color as button background color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-register:hover {
+    background-color: var(--tertiary-color); /* Change button color on hover */
+}
+
+/* Hero Section Styling */
+.hero {
+    background-color: var(--quinary-color); /* Set quinary color as background color */
+    padding: 80px 0;
+    text-align: center; /* Center align hero content */
+}
+
+.hero-text {
+    margin-bottom: 20px; /* Add space between texts and image */
+}
+
+.hero-text h1 {
+    font-size: 36px; /* Increased font size for the heading */
+    color: black; /* Set font color to black */
+    margin-bottom: 10px; /* Add space between texts */
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: var(--primary-color); /* Set primary color as text color */
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px; /* Add rounded corners to the hero image */
+    margin-bottom: 20px; /* Add space between image and button */
+}
+
+.contact-button {
+    background-color: var(--secondary-color); /* Set secondary color as button background color */
+    color: white; /* Set white color for text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: var(--tertiary-color); /* Change button color on hover */
+}
+
+/* Allocation Managers Section */
+.allocation-managers {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.allocation-managers h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.allocation-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.allocation-text ul {
+    text-align: left;
+    margin-right: 20px; /* Add margin to create space between text and image */
+}
+
+.allocation-image {
+    flex: 1; /* Take remaining space */
+    text-align: right; /* Align image to the right */
+}
+
+.allocation-image img {
+    width: 100%; /* Set image width to 100% */
+    border-radius: 20px; /* Rounded corners for image */
+}
+
+/* Services Section */
+.services {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.services-description {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.service-item {
+    flex: 1;
+    max-width: 300px;
+    text-align: left;
+}
+
+.service-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Get in Touch Section */
+.get-in-touch {
+    background-color: var(--primary-color);
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+}
+
+.get-in-touch h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.submit-button {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: var(--tertiary-color);
+}
+
+/* Contact Us Section */
+.contact-us {
+    background-color: var(--quaternary-color);
+    padding: 80px 0;
+    text-align: center;
+}
+
+.contact-us h2 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-icons span {
+    font-size: 18px;
+    color: white;
+}
+
+/* Footer Section */
+footer {
+    background-color: var(--quaternary-color);
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+}
