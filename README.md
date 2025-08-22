@@ -4,7 +4,7 @@ This project involved the end-to-end development and deployment of a responsive,
 
 **Repository Structure:**
 
-Product-Analyst-&-Web-Developer_Horizon_Health_Care/
+Product-Analyst-and-Web-Developer_Horizon_Health_Care/
 
 /- README - Documentation
 
