@@ -6,6 +6,10 @@ This project involved the end-to-end development and deployment of a responsive,
 
 Product-Analyst-and-Web-Developer_Horizon_Health_Care/
 
+/- Horizon Healthcare Second Page.pdf - Second page of website print to pdf size
+
+/- Horizon Helthcare Home Page.pdf - First page of website print to pdf size
+
 /- README - Documentation
 
 /- index.html - Full HTML code file
