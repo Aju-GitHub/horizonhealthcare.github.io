@@ -75,3 +75,13 @@ As the Business Analyst, I played a key role in bridging client requirements wit
 - Explore integration with CRM and analytics platforms for enhanced customer insights.
 
 - Plan phased rollout of additional features such as live chat, FAQs, and patient resources.
+
+**Rights and Usage:**
+
+All reports, documentation, and related codes are the intellectual property of Ajmal M S.
+
+Shared resources are provided solely as a record of my involvement, competencies, and learning outcomes.
+
+No content from this repository may be copied, altered, shared, or reused without explicit permission.
+
+© Ajmal M S, 2025
