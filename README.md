@@ -1,6 +1,6 @@
-# Horizon Health Care Solutions Website Deployment as a product analyst and web developer
+# Horizon Healthcare Solutions Website Deployment as a product analyst and web developer
 
-This project involved the end-to-end development and deployment of a responsive, user-centered website for Horizon Health Care. The website supports the company’s digital presence by promoting nursing and community care services, enhancing user engagement, and facilitating customer interactions.
+This project involved the end-to-end development and deployment of a responsive, user-centered website for Horizon Healthcare. The website supports the company’s digital presence by promoting nursing and community care services, enhancing user engagement, and facilitating customer interactions.
 
 **Repository Structure:**
 
@@ -14,7 +14,7 @@ Product-Analyst-&-Web-Developer_Horizon_Health_Care/
 
 # Role: Product Analyst and Web Developer
 
-As the Business Analyst, I played a key role in bridging client requirements with technical implementation to ensure the delivered website aligns with Horizon Health Care’s business goals and user needs.
+As the Business Analyst, I played a key role in bridging client requirements with technical implementation to ensure the delivered website aligns with Horizon Healthcare's business goals and user needs.
 
 # Key Contributions
 
@@ -22,7 +22,7 @@ As the Business Analyst, I played a key role in bridging client requirements wit
 
 - User Experience Focus: Emphasized clear navigation, intuitive layout, and easy access to contact and service information to maximize engagement and conversions.
 
-- Stakeholder Communication: Facilitated communications between development teams and Horizon Health Care leadership to validate design choices and functionality.
+- Stakeholder Communication: Facilitated communications between development teams and Horizon Healthcare leadership to validate design choices and functionality.
 
 - Content Structuring: Organized website sections such as Services, Allocation Managers, Contact Us, and Careers to reflect company priorities and enhance site usability.
 
